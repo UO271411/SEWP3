@@ -3,7 +3,7 @@
 <head>
 	<!-- Datos que describen el documento -->
     <meta charset="UTF-8">
-    <title>Calculadora Basica</title>
+    <title>Calculadora Básica</title>
 	<meta name="author" content="UO271411">
 	<link rel="stylesheet" type="text/css" href="CalculadoraBasica.css"/>
 	<script src="CalculadoraBasica.js"></script>
@@ -13,8 +13,12 @@
 		<h1>Calculadora Básica</h1>
 		<label for="pantalla">-></label>
 		<input type="text" id="pantalla" disabled>
-		<form method="GET">
 			<table>
+				<thead>
+					<tr>
+						<td colspan="4"></td>
+					</tr>
+				</thead>
 				<tbody>
 					<tr>
 						<td><input type="button" value="mrc" onclick="calculadora.mrc()"></td>
@@ -48,7 +52,6 @@
 					</tr>
 				</tbody>
 			</table>
-		</form>
 	</main>
 </body>
 </html>
