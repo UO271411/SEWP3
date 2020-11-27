@@ -13,51 +13,36 @@
 		<h1>Calculadora Básica</h1>
 		<label for="pantalla">Resultado:</label>
 		<input type="text" id="pantalla" disabled>
-		<table id="tabla">
-			<thead>
-				<colgroup>
-					<col span="4" style="background-color:gray">
-				</colgroup>
-			</thead>
-			<tbody>
-				<tr>
-					<td><input type="button" value="mrc" onclick="calculadora.mrc()"></td>
-					<td><input type="button" value="m-" onclick="calculadora.mMenos()"></td>
-					<td><input type="button" value="m+" onclick="calculadora.mMas()"></td>
-					<td><input type="button" value="/" onclick="calculadora.division()"></td>
-				</tr>
-				<tr>
-					<td><input type="button" value="7" onclick="calculadora.digitos(7)"></td>
-					<td><input type="button" value="8" onclick="calculadora.digitos(8)"></td>
-					<td><input type="button" value="9" onclick="calculadora.digitos(9)"></td>
-					<td><input type="button" value="*" onclick="calculadora.multiplicacion()"></td>
-				</tr>
-				<tr>
-					<td><input type="button" value="4" onclick="calculadora.digitos(4)"></td>
-					<td><input type="button" value="5" onclick="calculadora.digitos(5)"></td>
-					<td><input type="button" value="6" onclick="calculadora.digitos(6)"></td>
-					<td><input type="button" value="-" onclick="calculadora.resta()"></td>
-				</tr>
-				<tr>
-					<td><input type="button" value="1" onclick="calculadora.digitos(1)"></td>
-					<td><input type="button" value="2" onclick="calculadora.digitos(2)"></td>
-					<td><input type="button" value="3" onclick="calculadora.digitos(3)"></td>
-					<td><input type="button" value="+" onclick="calculadora.suma()"></td>
-				</tr>
-				<tr>
-					<td><input type="button" value="0" onclick="calculadora.digitos(0)"></td>
-					<td><input type="button" value="." onclick="calculadora.punto()"></td>
-					<td><input type="button" value="C" onclick="calculadora.borrar()"></td>
-					<td><input type="button" value="=" onclick="calculadora.igual()"></td>
-				</tr>
-			</tbody>
-			<tfoot>
-				<tr>
-				  <td colspan="2">Total</td>
-				  <td>20</td>
-				</tr>
-     			</tfoot>
-		</table>
+		<p>
+			<input type="button" value="mrc" onclick="calculadora.mrc()">
+			<input type="button" value="m-" onclick="calculadora.mMenos()">
+			<input type="button" value="m+" onclick="calculadora.mMas()">
+			<input type="button" value="/" onclick="calculadora.division()">
+		</p>
+		<p>
+			<input type="button" value="7" onclick="calculadora.digitos(7)">
+			<input type="button" value="8" onclick="calculadora.digitos(8)">
+			<input type="button" value="9" onclick="calculadora.digitos(9)">
+			<input type="button" value="*" onclick="calculadora.multiplicacion()">
+		</p>
+		<p>
+			<input type="button" value="4" onclick="calculadora.digitos(4)">
+			<input type="button" value="5" onclick="calculadora.digitos(5)">
+			<input type="button" value="6" onclick="calculadora.digitos(6)">
+			<input type="button" value="-" onclick="calculadora.resta()">
+		</p>
+		<p>
+			<input type="button" value="1" onclick="calculadora.digitos(1)">
+			<input type="button" value="2" onclick="calculadora.digitos(2)">
+			<input type="button" value="3" onclick="calculadora.digitos(3)">
+			<input type="button" value="+" onclick="calculadora.suma()">
+		</p>
+		<p>
+			<input type="button" value="0" onclick="calculadora.digitos(0)">
+			<input type="button" value="." onclick="calculadora.punto()">
+			<input type="button" value="C" onclick="calculadora.borrar()">
+			<input type="button" value="=" onclick="calculadora.igual()">
+		</p>
 	</main>
 </body>
 </html>
